@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/logo-uym.png">
+    <title> DOGMYRTA </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=New+Rocker&display=swap" rel="stylesheet">
+
+
+</head>
+    <style>
+        *,
+        html{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+                /* NAVBAR */
+                .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        }
+        .navbar1{
+         list-style: none;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        position: absolute;
+        right: 0%;
+        top: 1%;
+        
+        
+        }
+        .STYLE{
+          text-decoration: none;
+          color: white;
+        }
+        .navbar2{
+            color: white;
+            font-size: 70px;
+            font-family: "Metal Mania", system-ui;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        .navbar2 :hover{
+          color: black;  
+        }
+        .navbar2 :hover{ 
+            background-color: #ffff;
+            border-radius: 18px;
+            transition: all ease-in-out 0.5s;}
+            
+        /* CLOSE NAVBAR */
+
+        /* background */
+        .api{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: #f6f6f4;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+        opacity: 50%;
+        }
+        /* close backgroung */
+
+        /* isian */
+        .vhcode{
+            width: 80vh;
+            height: 80vh;
+        }
+
+        /* slder 1 */
+        .page21{
+            width: 0%;
+            position: relative;
+            left: 760px;
+            top: -10px;
+           
+            
+
+        }
+        .page2{
+        width: 600px;
+        overflow: hidden;
+        
+       
+        
+        }
+        .image{
+            display: flex;
+             transition: 2s;
+             animation: slide 20s infinite;
+            
+        }
+        .image img{
+            width: 600px;
+            border-radius: 50px;
+           
+        }
+        .navbarslide1{
+        font-size: 50px;
+        padding:1px;
+        margin:0px;
+        display:inline;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -70px;
+        left: 250px;
+        border-radius: 300px;
+        }
+        .navbarslide2{
+            background-color:#dede;
+                color: transparent;
+                border-radius: 300px;
+        }
+        .navbarslide2:hover{
+                background-color:#0000;
+                transition: all ease-in-out 0.5s;
+            }
+            #slide1:target~ .image {
+                margin-left: 0px;
+            }
+            #slide2:target~ .image {
+                margin-left: -100%;
+            }
+            #slide3:target~ .image{
+                margin-left: -200%;
+            }
+            .slide:hover{
+                transition: all ease-in-out 1s;
+            }
+            @keyframes slide{
+        0%{
+            transform:translateX(0);
+        }
+        15%{
+            transform: translateX(0);
+        }
+        30%{
+            transform: translateX(-100%);
+        }
+        45%{
+            transform: translateX(-100%);
+        }
+        50%{
+            transform: translateX(-100%);
+        }
+        65%{
+            transform: translateX(-200%);
+        }
+        85%{
+            transform: translateX(-200%);
+        }
+        100%{
+            transform: translateX(-200%);
+        }
+    }
+        /* slider1 close */
+          /* slder 2 */
+    .page22{
+        width: 0%;
+        position: relative;
+        left: 1360px;
+        top: -500px;
+        z-index: 3;
+       
+        
+
+    }
+    .page3{
+    width: 600px;
+    overflow: hidden;
+    }
+    .image1{
+        display: flex;
+        transition: 2s;
+        animation: slide 20s infinite;
+         
+    }
+    .image1 img{
+        width: 600px;
+        border-radius: 50px;
+    }
+    .navbarslide12{
+    font-size: 50px;
+    padding:1px;
+    margin:0px;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    left: 250px;
+    border-radius: 300px;
+    }
+    .navbarslide22{
+        background-color:rgba(71, 79, 71, 0.933);
+            color: transparent;
+            border-radius: 300px;
+    }
+    .navbarslide22:hover{
+            background-color:#0000;
+            transition: all ease-in-out 0.5s;
+        }
+        #slide11:target~ .image1 {
+            margin-left: 0px;
+        }
+        #slide22:target~ .image1 {
+            margin-left: -100%;
+        }
+        #slide33:target~ .image1 {
+            margin-left: -200%;
+        }
+        @keyframes slide{
+        0%{
+            transform:translateX(0);
+        }
+        15%{
+            transform: translateX(0);
+        }
+        30%{
+            transform: translateX(-100%);
+        }
+        45%{
+            transform: translateX(-100%);
+        }
+        50%{
+            transform: translateX(-100%);
+        }
+        65%{
+            transform: translateX(-200%);
+        }
+        85%{
+            transform: translateX(-200%);
+        }
+        100%{
+            transform: translateX(-200%);
+        }
+    }
+    /* slider2 close */
+        /* close isian */
+
+          /* footer */
+          .footer{
+            background-color: #fff;
+            height:10vh;
+            z-index: 1;
+            opacity: 50%;
+            border-radius: 50px;
+        }
+        .COPYRIGHT{
+            display: flex;
+            text-align: justify;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 70px;
+        }
+        /* close footer */
+
+        /* about*/
+        .bajuputih{
+            height:0%; 
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .bajuputih1{
+            position: absolute;
+            width: 50%;
+            color: #fff;
+            font-family: "New Rocker", system-ui;
+            font-size: 50px;
+            opacity: 80%;
+            top: 40%;
+            right: 20px;
+        }
+
+        /* SLIDE PAGE1 */
+        
+        /* CLOSE SLIDE PAGE1 */
+
+        /* close about */
+
+        /* screen mod */
+          /* @media screen and (max-width :800px) {
+             
+          } */
+        /* screen mod close */
+
+    
+    </style>
+<body>
+    
+    <img src="11224.jpg" class="api">
+    
+
+    <!-- navabar page -->
+    <nav class="navbar">
+        <ul class="navbar1">
+            <li class="navbar2"><a href="page1.html" class="STYLE" >
+                HOME
+            </li>
+            </a>
+            <li class="navbar2"><a href="about_page2.html"class="STYLE" >
+                ABOUT
+            </li>
+            </a>
+            <li class="navbar2">  <a href="produk.html" class="STYLE"> PRODUCT</a>
+            <!-- <ul id="subproduct">
+                <li class="subproduct1">
+                    HELL
+                </li>
+                <li class="subproduct1">
+                    HEAVEN
+                </li><li class="subproduct1">
+                    PARADISE
+                </li>
+            </ul> -->
+            </li>
+            
+        </ul>
+    </nav>
+
+    <!-- close navbar page -->
+
+    <!-- isian -->
+     <div class="vhcode">
+        <div class="page21">
+        <div class="page2">
+        <div class="slide1">
+            <span id="slide1"> </span>
+            <span id="slide2"> </span>
+            <span id="slide3"> </span>
+        <div class="image">
+        <img src="distro1.jpg" >
+        <img src="distro3.jpg" >
+        <img src="distro6.jpg" >
+        </div>
+        <div class="navbarslide1">
+            <a href="#slide1" class="navbarslide2">1</a>
+            
+            <a href="#slide2" class="navbarslide2">2</a>
+     
+            <a href="#slide3" class="navbarslide2">3</a>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- slide gambar2 -->
+    <div class="page22">
+    <div class="page3">
+    <div class="slide2">
+        <span id="slide11"> </span>
+        <span id="slide22"> </span>
+        <span id="slide33"> </span>
+    <div class="image1">
+    <img src="distro2.jpg" >
+    <img src="distro4.jpg" >
+    <img src="distro5.jpg" >
+    </div>
+    <div class="navbarslide12">
+        <a href="#slide11" class="navbarslide22">1</a>
+        
+        <a href="#slide22" class="navbarslide22">2</a>
+ 
+        <a href="#slide33" class="navbarslide22">3</a>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="bajuputih">
+        <a class="bajuputih1"><h1>kaus rock yang membuat anda nyaman mengenakannya dan sehingga seakan akan anda menjadi seorang rocker sejati </h1></a>
+    </div>
+    <!-- close isian -->
+    
+    <!-- home page decription -->
+    <div class="footer">
+        <a class="COPYRIGHT">
+         <h1>COPYRIGHT BY FAQIH BAIDOWI</h1></a>
+      </div>
+     <!-- close home page decription -->
+    
+</body>
+</html>

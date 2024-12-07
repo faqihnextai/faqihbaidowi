@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/logo-uym.png">
+    <title> DOGMYRTA </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <style>
+        *,
+        html{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+
+        }
+        /* NAVBAR */
+        .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        }
+        .navbar1{
+         list-style: none;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        position: absolute;
+        right: 0%;
+        top: 1%;
+        
+        
+        }
+        .STYLE{
+          text-decoration: none;
+          color: white;
+        }
+        .navbar2{
+            color: white;
+            font-size: 70px;
+            font-family: "Metal Mania", system-ui;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        .navbar2 :hover{
+          color: black;  
+        }
+        .navbar2 :hover{ 
+            background-color: #ffff;
+            border-radius: 18px;
+            transition: all ease-in-out 0.5s;}
+            
+        /* CLOSE NAVBAR */
+
+        /* navbar tambahan */
+            /* .subproduct1{
+                color: white;
+                font-size: 70px;
+                display:flex;
+                justify-content:right;
+                align-items: center;
+                text-decoration:none;
+                position: relative;
+                top: 110px;
+                left:-60px ;
+                padding: 15px 15px;
+                font-family: "Metal Mania", system-ui; ;
+            }
+            #subproduct{
+                opacity: 0;
+                position: absolute;
+                top: 35px;
+                visibility: hidden;
+                z-index: 1;
+                right: 0;
+            }
+            li:hover ul#subproduct{
+               opacity: 1;
+               top: 0;
+               visibility: visible;
+               left: 0;
+
+            }
+            #subproduct li{
+                float: none;
+                width: 100%;
+            } */
+        /* close navbar tambahan */
+
+        /* page1 */
+        .page2{
+            height: 80vh;
+        }
+        .SKULL{
+            width: 1500px;
+            height: 1500px;
+            border-radius: 50px;
+        }
+        .api{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: #f6f6f4;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+        opacity: 50%;
+        }
+        /* close page 1 */
+
+        /* decription page 1 */
+        .decription{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            position: absolute;
+            top:200px;
+            left: 2100px;
+
+            H2#h2{
+                position: relative;
+                font-size: 70px;
+                text-align: justify;
+                top: 100px;
+                right: 300px;
+                text-indent: 50px;
+                padding: 12.5px;
+            }
+        }
+        .decription1:hover{
+    animation: bergetar 0.4s;
+    animation-iteration-count:infinite;
+  }
+    @keyframes bergetar {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+        .decription1{
+            color: #fff;
+            font-size: 100px;
+            font-family: "Lacquer", system-ui;
+
+        }
+        .BOLD{
+            font-size: 90px;
+        }
+        /* close decription page 1 */
+
+        /* footer */
+        .footer{
+            background-color: #fff;
+            height: 10vh;
+            z-index: 1;
+            opacity: 50%;
+            border-radius: 50px;
+        }
+        .COPYRIGHT{
+            display: flex;
+            text-align: justify;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 70px;
+
+        }
+        /* close footer */
+
+        /* screen mod */
+          @media screen and ( max-widht: 800px){
+            body{
+                width: 50%;
+            }
+          }
+        /* screen mod close */
+    </style>
+</head>
+<body>
+    <img src="11224.jpg" class="api">
+    <!-- navabar page -->
+    <nav class="navbar">
+        <ul class="navbar1">
+            <li class="navbar2"><a href="page1.html" class="STYLE" >
+                HOME
+            </li>
+            </a>
+            <li class="navbar2"><a href="about_page2.html"class="STYLE" >
+                ABOUT
+            </li>
+            </a>
+            <li class="navbar2">  <a href="" class="STYLE"> PRODUCT</a>
+            <!-- <ul id="subproduct">
+                <li class="subproduct1">
+                    HELL
+                </li>
+                <li class="subproduct1">
+                    HEAVEN
+                </li><li class="subproduct1">
+                    PARADISE
+                </li>
+            </ul> -->
+            </li>
+            
+        </ul>
+    </nav>
+    <!-- close navbar page -->
+     <!-- img page 1 -->
+     <div class="page2">
+        <img src="SKULL.jpg" class="SKULL">
+        <div class="decription">
+            <a class="decription1">
+            <H1> SAMPURASUN!!</H1>
+            <H2 id="h2">Menjual berbagai kaus distro rock hebat yang menciptakan kesenangan selama lamanya. rock merupakan <B class="BOLD"> GAYA HIDUP</B>
+                 yang keras dan fantastis Logo band favorit, gambar tengkorak, atau tulisan-tulisan keren sering jadi andalannya. Kalau mau cari baju distro rock, cek aja di toko-toko online atau pasar loak. Pasti ada yang cocok buat gaya kamu! 🤘 </H2>
+            </a>
+            
+            
+        </div>
+     </div>
+     <!-- close img -->
+
+     <!-- home page decription -->
+      <div class="footer">
+        <a class="COPYRIGHT">
+         <h1>COPYRIGHT BY FAQIH BAIDOWI</h1></a>
+      </div>
+     <!-- close home page decription -->
+</body>
+</html>
